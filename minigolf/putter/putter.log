@@ -1,0 +1,51 @@
+Exporter version: 6.2.2, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  d:\Data\TFS\HTTP3D\secureinternal\HTTP3DInc\Blender\golf\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  golfclubshaft
+		processing begun of material:  shaft
+		num positions      :  53
+		num normals        :  53
+		num tangents       :  0
+		num uvs            :  106
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  84
+	processing begun of mesh:  golfclubgrip
+		processing begun of material:  grip
+		num positions      :  53
+		num normals        :  53
+		num tangents       :  0
+		num uvs            :  106
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  84
+	processing begun of mesh:  golfclubhead
+		processing begun of material:  black
+		processing begun of material:  white
+		processing begun of multimaterial:  putter.Multimaterial#0
+		num positions      :  623
+		num normals        :  623
+		num tangents       :  0
+		num uvs            :  1246
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1212
+	processing begun of light (POINT):  Light
+	processing begun of light (POINT):  Point
+========= Writing of JSON file started =========
+	writing mesh:  golfclubshaft
+	writing mesh:  golfclubgrip
+	writing mesh:  golfclubhead
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.1935 secs

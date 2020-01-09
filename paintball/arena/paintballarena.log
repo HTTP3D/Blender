@@ -1,0 +1,62 @@
+Exporter version: 6.2.2, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  d:\Data\TFS\HTTP3D\secureinternal\HTTP3DInc\Blender\paintball\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  MainFloor
+		processing begun of material:  Material.001
+		num positions      :  52
+		num normals        :  52
+		num tangents       :  0
+		num uvs            :  104
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  66
+	processing begun of mesh:  CeilingRafters
+		processing begun of material:  Rafters
+		num positions      :  11183
+		num normals        :  11183
+		num tangents       :  0
+		num uvs            :  22366
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  11520
+	processing begun of mesh:  CeilingGlass
+		processing begun of material:  Glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			bake time:  0 min, 0.005 secs
+		num positions      :  1498
+		num normals        :  1498
+		num tangents       :  0
+		num uvs            :  2996
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2562
+		WARNING: # of 0 area faces found:  2
+	processing begun of mesh:  Cube
+		WARNING: No materials have been assigned: 
+		num positions      :  3670
+		num normals        :  3670
+		num tangents       :  0
+		num uvs            :  7340
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  5775
+		WARNING: # of 0 area faces found:  205
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  MainFloor
+	writing mesh:  CeilingRafters
+	writing mesh:  CeilingGlass
+	writing mesh:  Cube
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.7951 secs

@@ -1,0 +1,61 @@
+Exporter version: 6.2.2, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  d:\Data\TFS\HTTP3D\secureinternal\HTTP3DInc\Blender\golf\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  sides
+		processing begun of material:  sides
+		processing begun of material:  grass
+		processing begun of material:  cup
+		processing begun of material:  cupdents
+			processing texture weatheredwood_512x512
+				WARNING: Exception during copy:
+					'd:\\Data\\TFS\\HTTP3D\\secureinternal\\HTTP3DInc\\Blender\\golf\\weatheredwood-512x512.jpg' and 'd:\\Data\\TFS\\HTTP3D\\secureinternal\\HTTP3DInc\\Blender\\golf\\weatheredwood-512x512.jpg' are the same file
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture grass_512x512
+				WARNING: Exception during copy:
+					'd:\\Data\\TFS\\HTTP3D\\secureinternal\\HTTP3DInc\\Blender\\golf\\grass-512x512.jpg' and 'd:\\Data\\TFS\\HTTP3D\\secureinternal\\HTTP3DInc\\Blender\\golf\\grass-512x512.jpg' are the same file
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  minigolfhole1.Multimaterial#0
+		num positions      :  732
+		num normals        :  732
+		num tangents       :  0
+		num uvs            :  1464
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1014
+	processing begun of mesh:  ground
+		processing begun of material:  sides
+		processing begun of material:  grass
+		processing begun of material:  cup
+		processing begun of material:  cupdents
+			processing texture weatheredwood_512x512
+				WARNING: Exception during copy:
+					'd:\\Data\\TFS\\HTTP3D\\secureinternal\\HTTP3DInc\\Blender\\golf\\weatheredwood-512x512.jpg' and 'd:\\Data\\TFS\\HTTP3D\\secureinternal\\HTTP3DInc\\Blender\\golf\\weatheredwood-512x512.jpg' are the same file
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		registered as also a user of material:  grass
+		registered as also a user of material:  cup
+		registered as also a user of material:  cupdents
+		processing begun of multimaterial:  minigolfhole1.Multimaterial#1
+		num positions      :  71
+		num normals        :  71
+		num tangents       :  0
+		num uvs            :  142
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  159
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  sides
+	writing mesh:  ground
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.1093 secs
